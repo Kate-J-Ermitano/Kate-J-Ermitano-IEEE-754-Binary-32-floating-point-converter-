@@ -1,0 +1,27 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>IEEE-754 Binary-32 floating-point converter</title>
+    <link href="https://fonts.googleapis.com/css?family=Assistant:400,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<form action="convert.jsp" method="get">
+    <h3>IEEE-754 Binary-32 floating-point converter (including all special cases)</h3>
+    <label for="mantissa">Mantissa:</label>
+    <input type="text" id="mantissa" name="mantissa"><br>
+
+    <input type="radio" id="base2" name="base" value="2">
+    <label for="base2">Base 2</label><br>
+    <input type="radio" id="base10" name="base" value="10">
+    <label for="base10">Base 10</label><br>
+
+    <label for="exponent">Exponent:</label>
+    <input type="text" id="exponent" name="exponent"><br>
+
+    <input type="submit" value="Convert">
+</form>
+</body>
+</html>

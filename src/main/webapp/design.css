@@ -1,0 +1,73 @@
+body {
+    width: 800px;
+    margin: 0 auto;
+    font-family: 'Assistant', sans-serif;
+    font-size: 1em;
+}
+table {
+    width: 100%;
+    background-color: #eee;
+    border-radius: 10px;
+    padding: 4px;
+}
+td {
+    padding: 0px 8px;
+    height: 30px;
+}
+input {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding-left: 4px;
+    height: 30px;
+}
+
+select {
+    width: 100%;
+}
+
+button {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 7px 15px;
+    display: inline-block;
+    border-radius: 3px;
+    border: 1px solid cornflowerblue;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 8px auto;
+    width: 120px;
+    font-size: 1em;
+}
+
+p {
+    margin: 0;
+}
+
+#form {
+    margin-top: 20px;
+}
+
+#header {
+    margin-bottom: 0.5em;
+}
+
+#controls {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 8px;
+}
+#output {
+    float: right;
+    width: 200px;
+    margin-top: 60px;
+}
+/** This is to style the error message **/
+#error {
+    margin: 0;
+    padding: 0;
+    color: #B00000;
+    font-weight: 700;
+}
