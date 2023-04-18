@@ -12,7 +12,7 @@ Simulation Project for CSARCH2
 ![image](https://user-images.githubusercontent.com/80894347/232778424-13d5de67-de4a-44da-88ce-f76598a42a8f.png)<br><br>
 5.) <b>Do not run</b> Apache Tomcat yet.<br>
 
-<b>DOWNLOADING THE APPLICATION</b>
+<b>DOWNLOADING THE APPLICATION</b><br>
 1.) Download the <i>floating-point-converter.war</i> file from the repository.<br>
 ![image](https://user-images.githubusercontent.com/80894347/232778560-fdac6180-3b1f-4e50-a417-5064f046ba86.png)<br><br>
 2.) Locate the <i>apache-tomcat-9.0.73-windows-x64</i> folder then go to the<i>webapps</i> folder.<br>
