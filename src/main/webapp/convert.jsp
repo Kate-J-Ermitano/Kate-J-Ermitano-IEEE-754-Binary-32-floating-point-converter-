@@ -10,6 +10,7 @@
 <head>
     <title>IEEE-754 Binary-32 floating-point converter</title>
     <link href="https://fonts.googleapis.com/css?family=Assistant:400,700&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href = "design.css">
 </head>
 
 <body>
