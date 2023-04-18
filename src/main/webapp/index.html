@@ -1,28 +1,35 @@
-<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 <head>
     <title>IEEE-754 Binary-32 floating-point converter</title>
     <link href="https://fonts.googleapis.com/css?family=Assistant:400,700&display=swap" rel="stylesheet">
-
+    <link rel = "stylesheet" href = "design.css">
 </head>
 
 <body>
 <form action="convert.jsp" method="get">
-    <h3>IEEE-754 Binary-32 floating-point converter (including all special cases)</h3>
+    <h3>IEEE-754 Binary-32 Floating-Point Converter (including all special cases)</h3>
+    <p>Input mantissa in decimal or binary form, choose between base 2 and base 10, input the exponent, then hit convert to calculate for the floating-point version of your input.</p>
     <label for="mantissa">Mantissa:</label>
     <input type="text" id="mantissa" name="mantissa"><br>
 
-    <input type="radio" id="base2" name="base" value="2">
-    <label for="base2">Base 2</label><br>
-    <input type="radio" id="base10" name="base" value="10">
-    <label for="base10">Base 10</label><br>
+    <div id="radio_buttons">
+        <input type="radio" id="base2" name="base" value="2">
+        <label for="base2">Base 2</label><br>
+        <input type="radio" id="base10" name="base" value="10">
+        <label for="base10">Base 10</label><br>
+    </div>
 
     <label for="exponent">Exponent:</label>
     <input type="text" id="exponent" name="exponent"><br>
 
-    <input type="submit" value="Convert">
+    <input type="submit" value="Convert" id="convert">
+
 </form>
+
+<div class = "footer">
+    <p>Ermitano, Kate Justine U. @ 2023 | Output for CSARCH2</p>
+</div>
 </body>
 </html>
