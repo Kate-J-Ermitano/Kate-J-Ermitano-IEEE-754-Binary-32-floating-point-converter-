@@ -15,7 +15,7 @@
 
 <body>
 <form>
-    <h3>IEEE-754 Binary-32 floating-point converter (including all special cases)</h3>
+    <h3>IEEE-754 Binary-32 Floating-Point Converter (including all special cases)</h3>
     <h4>Results:</h4><br>
     <%
         try{
