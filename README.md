@@ -22,6 +22,7 @@ Simulation Project for CSARCH2
 7.) In Services, locate the Apache Tomcat 9.0 Tomcat9 service and then right click and select <i>Start</i>.<br>
 ![image](https://user-images.githubusercontent.com/80894347/232778837-7f3ca2e1-d310-4178-8b6f-142cf3d69cae.png)<br>
 8.) Once the service is running, open http://localhost:3000/floating-point-converter/.<br>
+![image](https://user-images.githubusercontent.com/80894347/232780891-c94d4f8d-46b1-43c2-94b4-6648d40ab7ca.png)<br>
 
 <b>CLOSING THE CONVERTER AND TOMCAT SERVER:</b><br>
 1.) Close the web page.<br>
